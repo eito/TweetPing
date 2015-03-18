@@ -110,7 +110,9 @@ class TweetPingLayer: CAShapeLayer {
     
     // MARK: CALayer delegate
     
-    override func animationDidStop(anim: CAAnimation!, finished flag: Bool) {
+    override func animationDidStop(var anim: CAAnimation!, finished flag: Bool) {
+        pathAnimation.delegate = nil
+        
         self.removeAllAnimations()
         self.removeFromSuperlayer()
         
