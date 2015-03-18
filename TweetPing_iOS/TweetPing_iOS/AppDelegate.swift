@@ -3,7 +3,6 @@
 //  TweetPing_iOS
 //
 //  Created by Eric Ito on 3/18/15.
-//  Copyright (c) 2015 Esri. All rights reserved.
 //
 
 import UIKit
